@@ -175,7 +175,7 @@ class PCA(ProjectionVisualizer):
             colorbar=colorbar,
             **kwargs
         )
-
+        self.random_state=random_state
         # Data Parameters
         self.scale = scale
         self.proj_features = proj_features
